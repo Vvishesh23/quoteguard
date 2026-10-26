@@ -159,4 +159,4 @@ queue model, execution-price P&L, profitability or durable-alpha claim.
 Collect independent later sessions on a stable trusted transport, audit clocks and
 buffering, keep the existing protocol fixed and evaluate entire held-out sessions.
 Use new filenames; captures are never overwritten. CI needs an actual repository
-push before hosted execution can be claimed. See PORTFOLIO_GUIDE.md and CASE_STUDY.md.
+push before hosted execution can be claimed. See CASE_STUDY.md and FROZEN_CASE_STUDY.md.

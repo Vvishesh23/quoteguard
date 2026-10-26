@@ -1,5 +1,0 @@
-side,horizon_s,n,blocks,mean,ci_low,ci_high,block_s,resamples,status
-sell,1,592,4,0.001619907418,,,30,1000,insufficient_blocks
-sell,5,571,4,-0.1133755801,,,30,1000,insufficient_blocks
-buy,1,597,4,0.06176019101,,,30,1000,insufficient_blocks
-buy,5,578,4,0.1379523394,,,30,1000,insufficient_blocks

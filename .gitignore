@@ -1,12 +1,40 @@
+# Local runtime and caches
 .venv/
 __pycache__/
 .pytest_cache/
 *.egg-info/
+.DS_Store
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Working notes and application materials; retained locally
+PROJECT_STATUS.md
+RESUME.md
+RESUME_BULLETS.md
+PORTFOLIO_GUIDE.md
+
+# Public source fixture only; recordings and transport sidecars remain local
 data/*.jsonl
 data/*.log
+data/*.meta.json
 !data/synthetic.jsonl
-reports/live/
-reports/ci-*/
+
+# Curated research outputs only; generated demos/logs remain local
+reports/*
+!reports/test-results.txt
+!reports/demo/
+!reports/live-descriptive/
+!reports/live-study/
+!reports/frozen-holdout/
+
+# Regenerable event-level outputs and duplicate synthetic fixtures
+reports/demo/quotes.csv
+reports/demo/trades.csv
+reports/demo/synthetic.jsonl
 reports/live-study/samples.csv
 reports/live-study/predictions.csv
 reports/live-descriptive/quotes.csv

@@ -38,8 +38,7 @@ model coefficients and out-of-sample predictions are preserved for reproduction.
 
 [Read the concise case study](CASE_STUDY.md),
 [inspect the full research study](reports/live-study/study.md),
-[inspect the descriptive report](reports/live-descriptive/report.md), or start with
-[the portfolio walkthrough](PORTFOLIO_GUIDE.md).
+[inspect the descriptive report](reports/live-descriptive/report.md), and inspect the documented methods and limitations below.
 
 | Horizon | Zero-return OOS RMSE | Combined-model OOS RMSE | Observation |
 |---|---:|---:|---|
@@ -75,6 +74,20 @@ See [the frozen-model contract](FROZEN_MODELS.md) and [the later-session protoco
 The session-demo report is explicitly synthetic. The recorded frozen-holdout report
 uses the separate real session. A later same-day capture
 is distinct from independent-day validation.
+
+## Repository contents and data availability
+
+This repository publishes source, tests, the deterministic synthetic fixture,
+frozen model state, research protocols and selected aggregate reports/plots.
+Raw live captures, event-level analysis tables, machine logs and local working
+notes are excluded. The observed capture counts and hashes remain documented;
+the raw exchange recordings are not distributed through this repository.
+
+The offline demo and `session-demo` run from a fresh checkout. Commands referring
+to `data/btcusdt-research-01.jsonl` or `data/btcusdt-research-02.jsonl` require those
+local captures. To reproduce the pipeline on new observations, use `collect` with
+a fresh filename, then `study` or the frozen-model workflow. Local archival bundles
+may include recordings; that does not mean they are available in this repository.
 
 ## Run locally
 
@@ -258,8 +271,7 @@ leverage or profitability claim.
 
 The next experiment should freeze the existing model and evaluate independent
 later sessions on a more stable transport, rather than tune to this pilot.
-PORTFOLIO_GUIDE.md explains how to discuss these choices in an interview;
-RESUME_BULLETS.md contains measured project descriptions.
+The case studies document the findings, methodology and limitations for review.
 
 ## Sources
 
