@@ -1,0 +1,36 @@
+{
+  "source": "binance_public",
+  "label": "BINANCE PUBLIC CAPTURE",
+  "input_sha256": "190c6cd8887d9a2cf3169039f7ab2bdee4de0831a70fe420407320a1b9a42089",
+  "raw_records": 144788,
+  "valid_records": 144788,
+  "valid_fraction": 1.0,
+  "rejected": {},
+  "quotes": 109635,
+  "trades": 35153,
+  "trades_with_eligible_quote": 34873,
+  "stale_or_unmatched_trades": 280,
+  "window_start_utc": "2026-10-26T15:19:23.615103000Z",
+  "window_end_utc": "2026-10-26T15:29:22.474981000Z",
+  "duration_s": 598.859878,
+  "stale_quote_seconds": 1,
+  "future_tolerance_seconds": 0.5,
+  "coverage": {
+    "quote_labels": {
+      "1s": 106001,
+      "5s": 103930
+    },
+    "trade_labels": {
+      "1s": 33843,
+      "5s": 33266
+    }
+  },
+  "spread_bps": {
+    "0.0": 0.0012376238383135186,
+    "0.25": 0.00123922946877285,
+    "0.5": 0.001239677591440486,
+    "0.75": 0.0012402970795919379,
+    "0.95": 0.001240705486822909,
+    "1.0": 1.4586477393598587
+  }
+}

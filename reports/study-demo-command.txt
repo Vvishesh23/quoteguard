@@ -1,0 +1,60 @@
+{
+  "source": "synthetic",
+  "label": "SYNTHETIC",
+  "symbol": "BTCUSDT",
+  "input_sha256": "9427fa285b477eddca230abcebcb178c1f39b12aec66e68b118bb8328a45da48",
+  "raw_records": 2400,
+  "valid_records": 2400,
+  "valid_fraction": 1.0,
+  "rejected": {},
+  "quotes": 1200,
+  "trades": 1200,
+  "window_start_utc": "2026-01-01T00:00:00.000000000Z",
+  "window_end_utc": "2026-01-01T00:01:59.920000000Z",
+  "duration_s": 119.92,
+  "sampling": {
+    "grid_observations": 120,
+    "eligible_features": 119,
+    "interval_s": 1,
+    "lookback_s": 1,
+    "stale_s": 1,
+    "tolerance_s": 0.5,
+    "labeled_1s": 118,
+    "labeled_5s": 114
+  },
+  "ridge_alpha": 10,
+  "embargo_s": 1,
+  "runtime": {
+    "python": "3.12.1",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "quoteguard": "0.2.0"
+  },
+  "bootstrap": {
+    "block_s": 30,
+    "resamples": 1000,
+    "seed": 17,
+    "minimum_blocks": 8
+  },
+  "connections_in_events": 1,
+  "quote_gap_ms": {
+    "median": 100.0,
+    "p99": 100.0,
+    "maximum": 100.0
+  },
+  "trade_receipt_minus_exchange_event_ms": {
+    "median": 0.0,
+    "p99": 0.0
+  },
+  "trade_receipt_gap_diagnostics": {
+    "above_1s": 0,
+    "above_5s": 0,
+    "negative": 0
+  },
+  "capture_metadata": null,
+  "protocol": "RESEARCH_PROTOCOL.md",
+  "oos_rows_by_horizon": {
+    "1": 71,
+    "5": 67
+  }
+}

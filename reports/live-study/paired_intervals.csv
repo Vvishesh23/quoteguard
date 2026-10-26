@@ -1,0 +1,7 @@
+horizon_s,comparison,units,n,blocks,mean,ci_low,ci_high,block_s,resamples,status
+1,zero_minus_combined_squared_error,bps_squared,359,12,-0.358812603,-0.9128779112,0.01246372175,30,1000,few_blocks_exploratory
+1,train_mean_minus_combined_squared_error,bps_squared,359,12,-0.3585404381,-0.9139605385,0.01478987239,30,1000,few_blocks_exploratory
+1,imbalance_minus_combined_squared_error,bps_squared,359,12,-0.3650383732,-0.9252030257,0.01076909779,30,1000,few_blocks_exploratory
+5,zero_minus_combined_squared_error,bps_squared,355,12,0.2224525757,-0.07771807768,0.5062084347,30,1000,few_blocks_exploratory
+5,train_mean_minus_combined_squared_error,bps_squared,355,12,0.2145913912,-0.07905298189,0.5041962215,30,1000,few_blocks_exploratory
+5,imbalance_minus_combined_squared_error,bps_squared,355,12,-0.02955314796,-0.1151848651,0.05547739963,30,1000,few_blocks_exploratory

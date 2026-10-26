@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checks": {
+    "input_fingerprint": true,
+    "prior_quote_times": true,
+    "forward_horizon_bounds": true,
+    "purged_training_labels": true,
+    "same_test_rows": true,
+    "saved_actual_targets": true,
+    "recomputed_rmse": true
+  },
+  "prediction_rows": 966,
+  "input_sha256": "9427fa285b477eddca230abcebcb178c1f39b12aec66e68b118bb8328a45da48"
+}

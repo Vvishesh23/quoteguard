@@ -1,0 +1,23 @@
+{
+  "source": "binance_public",
+  "symbol": "BTCUSDT",
+  "url": "wss://stream.binance.com:9443/stream?streams=btcusdt@bookTicker/btcusdt@trade",
+  "received": 60582,
+  "connections": 1,
+  "errors": [],
+  "requested_seconds": 600.0,
+  "tls_trust": "system",
+  "tls_verified": true,
+  "loop_health": {
+    "samples": 5924,
+    "max_lag_ms": 16.895207998459227,
+    "above_100ms": 0
+  },
+  "write_health": {
+    "writes": 60582,
+    "total_ms": 3644.8073580000414,
+    "max_ms": 12.961417
+  },
+  "stop_reason": "duration",
+  "elapsed_seconds": 601.0053952919989
+}

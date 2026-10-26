@@ -1,0 +1,8 @@
+{
+  "artifact_id": "e75939fd3dedbbd1b0029b4a84f8f1febb57138ee708d3cde5a007bb1d8ac91e",
+  "protocol_sha256": "a98fd1b68db54600416c9e510ba38c6db6f2854b607aaae81fb55f6428fbfef7",
+  "planned_test_input": "data/btcusdt-research-02.jsonl",
+  "planned_minutes": 10,
+  "training_input": "data/btcusdt-research-01.jsonl",
+  "parameters_frozen_before_new_capture": true
+}

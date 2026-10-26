@@ -1,0 +1,24 @@
+usage: quoteguard [-h]
+                  {collect,analyze,holdout,fit,audit,study,session-demo,demo}
+                  ...
+
+QuoteGuard public level-1 order flow research
+
+positional arguments:
+  {collect,analyze,holdout,fit,audit,study,session-demo,demo}
+    collect             bounded public Binance capture; never overwrites
+    analyze             analyze one captured or labeled synthetic JSONL
+    holdout             evaluate a frozen model on a strictly later recording
+                        without refitting
+    fit                 freeze training-only models into a fingerprinted JSON
+                        artifact
+    audit               independently verify saved study metrics and split
+                        timing
+    study               regular-time features, purged chronological models and
+                        block uncertainty
+    session-demo        offline synthetic train/freeze/later-session/audit
+                        workflow
+    demo                deterministic offline SYNTHETIC report
+
+options:
+  -h, --help            show this help message and exit

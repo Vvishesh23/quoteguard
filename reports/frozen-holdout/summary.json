@@ -1,0 +1,88 @@
+{
+  "capture_metadata": {
+    "connections": 1,
+    "elapsed_seconds": 601.0053952919989,
+    "errors": [],
+    "loop_health": {
+      "above_100ms": 0,
+      "max_lag_ms": 16.895207998459227,
+      "samples": 5924
+    },
+    "received": 60582,
+    "requested_seconds": 600.0,
+    "source": "binance_public",
+    "stop_reason": "duration",
+    "symbol": "BTCUSDT",
+    "tls_trust": "system",
+    "tls_verified": true,
+    "url": "wss://stream.binance.com:9443/stream?streams=btcusdt@bookTicker/btcusdt@trade",
+    "write_health": {
+      "max_ms": 12.961417,
+      "total_ms": 3644.8073580000414,
+      "writes": 60582
+    }
+  },
+  "coverage": {
+    "eligible_features": 598,
+    "grid_observations": 599,
+    "interval_s": 1,
+    "labeled_1s": 597,
+    "labeled_5s": 593,
+    "lookback_s": 1,
+    "stale_s": 1,
+    "tolerance_s": 0.5
+  },
+  "model_artifact_id": "e75939fd3dedbbd1b0029b4a84f8f1febb57138ee708d3cde5a007bb1d8ac91e",
+  "protocol": "SESSION_PROTOCOL.md",
+  "quotes": 45495,
+  "raw_records": 60582,
+  "refit_on_test": false,
+  "rejected": {},
+  "same_day_only": true,
+  "separation_seconds": 7963.647457,
+  "source": "binance_public",
+  "symbol": "BTCUSDT",
+  "test_duration_s": 599.184771,
+  "test_end_utc": "2026-10-26T17:52:05.307209000Z",
+  "test_first_recv_ns": 1793036526122438000,
+  "test_input_sha256": "2376c64cac7d0241e41216247eb65cad7cf4eed64c8fd294a33c0e4e6b42dd58",
+  "test_last_recv_ns": 1793037125307209000,
+  "test_start_utc": "2026-10-26T17:42:06.122438000Z",
+  "trades": 15087,
+  "training_input_sha256": "190c6cd8887d9a2cf3169039f7ab2bdee4de0831a70fe420407320a1b9a42089",
+  "training_last_recv_ns": 1793028562474981000,
+  "training_quality": {
+    "gap_median_ms": 63.782,
+    "gap_p99_ms": 19470.75848000018,
+    "scope": "observable trailing features only; no quote exchange timestamps exist",
+    "snapshot_quality_fraction": 0.9165275459098498,
+    "thresholds": {
+      "max_p99_ms": 1000,
+      "max_trade_gap_ms": 1000,
+      "min_snapshot_fraction": 0.8,
+      "min_trade_gap_ms": -100
+    },
+    "timing_gate_passed": false,
+    "trade_count": 35153,
+    "trades_above_1s": 2462,
+    "trades_below_minus_100ms": 0
+  },
+  "transport": {
+    "gap_median_ms": 16.14,
+    "gap_p99_ms": 560.76238,
+    "scope": "observable trailing features only; no quote exchange timestamps exist",
+    "snapshot_quality_fraction": 1.0,
+    "thresholds": {
+      "max_p99_ms": 1000,
+      "max_trade_gap_ms": 1000,
+      "min_snapshot_fraction": 0.8,
+      "min_trade_gap_ms": -100
+    },
+    "timing_gate_passed": true,
+    "trade_count": 15087,
+    "trades_above_1s": 0,
+    "trades_below_minus_100ms": 0
+  },
+  "valid_fraction": 1.0,
+  "valid_records": 60582
+}

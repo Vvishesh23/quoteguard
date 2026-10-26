@@ -1,0 +1,21 @@
+name: research checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install -e '.[test,system-trust]'
+      - run: python -m pytest -q
+      - run: python -m quoteguard demo --out reports/ci-demo
+      - run: python -m quoteguard study --input data/synthetic.jsonl --out reports/ci-study --no-sensitivity
+      - run: python -m quoteguard audit --input data/synthetic.jsonl --study reports/ci-study --out reports/ci-study/audit.json
+      - run: python -m quoteguard session-demo --out reports/ci-session-demo

@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/*.jsonl
+data/*.log
+!data/synthetic.jsonl
+reports/live/
+reports/ci-*/
+reports/live-study/samples.csv
+reports/live-study/predictions.csv
+reports/live-descriptive/quotes.csv
+reports/live-descriptive/trades.csv
+reports/frozen-holdout/samples.csv
+reports/frozen-holdout/predictions.csv

@@ -1,0 +1,36 @@
+{
+  "source": "synthetic",
+  "label": "SYNTHETIC",
+  "input_sha256": "9427fa285b477eddca230abcebcb178c1f39b12aec66e68b118bb8328a45da48",
+  "raw_records": 2400,
+  "valid_records": 2400,
+  "valid_fraction": 1.0,
+  "rejected": {},
+  "quotes": 1200,
+  "trades": 1200,
+  "trades_with_eligible_quote": 1200,
+  "stale_or_unmatched_trades": 0,
+  "window_start_utc": "2026-01-01T00:00:00.000000000Z",
+  "window_end_utc": "2026-01-01T00:01:59.920000000Z",
+  "duration_s": 119.92,
+  "stale_quote_seconds": 1,
+  "future_tolerance_seconds": 0.5,
+  "coverage": {
+    "quote_labels": {
+      "1s": 1190,
+      "5s": 1150
+    },
+    "trade_labels": {
+      "1s": 1189,
+      "5s": 1149
+    }
+  },
+  "spread_bps": {
+    "0.0": 0.09996440267620701,
+    "0.25": 0.09998075370491182,
+    "0.5": 0.09998763652875547,
+    "0.75": 0.09999912500769292,
+    "0.95": 0.10001074165370738,
+    "1.0": 0.10001934374107953
+  }
+}

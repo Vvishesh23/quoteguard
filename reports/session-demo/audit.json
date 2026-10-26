@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "model_identity",
+    "input_fingerprint",
+    "strict_session_separation",
+    "raw_feature_recomputation",
+    "frozen_scoring",
+    "no_refit",
+    "quality_masks",
+    "actual_targets",
+    "saved_metric_recomputation"
+  ],
+  "model_artifact_id": "879234686cf62167e887ff1540b68d584285dc3ac4d37363c0d689b86ea6590f",
+  "prediction_rows": 2464,
+  "status": "passed"
+}

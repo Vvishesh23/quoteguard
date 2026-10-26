@@ -1,0 +1,268 @@
+{
+  "artifact_id": "879234686cf62167e887ff1540b68d584285dc3ac4d37363c0d689b86ea6590f",
+  "payload": {
+    "alpha": 10,
+    "coverage": {
+      "eligible_features": 119,
+      "grid_observations": 120,
+      "interval_s": 1,
+      "labeled_1s": 118,
+      "labeled_5s": 114,
+      "lookback_s": 1,
+      "stale_s": 1,
+      "tolerance_s": 0.5
+    },
+    "embargo_s": 1,
+    "horizons": {
+      "1": {
+        "max_training_target_ns": 1767225719000000000,
+        "models": {
+          "book": {
+            "coefficients": [
+              0.008554783919786662,
+              0.008523175890475318,
+              0.018192163892041726,
+              -0.009855342709927403
+            ],
+            "features": [
+              "imbalance",
+              "microprice_edge_bps",
+              "spread_bps",
+              "ofi_depth"
+            ],
+            "intercept": 0.025771177387329165,
+            "means": [
+              -0.03412321504705418,
+              -0.0017061170059403418,
+              0.09999071632902293,
+              1.0870428373790189
+            ],
+            "scales": [
+              0.4350690314966773,
+              0.021751598854990405,
+              1.1827716072216339e-05,
+              6.227727930127588
+            ]
+          },
+          "combined": {
+            "coefficients": [
+              0.006790827160547572,
+              0.00676363367654435,
+              0.02398244998013782,
+              -0.030080758281300263,
+              0.026317595355655043,
+              4.999768753191901e-29,
+              0.027575219008662416
+            ],
+            "features": [
+              "imbalance",
+              "microprice_edge_bps",
+              "spread_bps",
+              "ofi_depth",
+              "trade_flow_imbalance",
+              "log_trade_count",
+              "lag_return_bps"
+            ],
+            "intercept": 0.025771177387329165,
+            "means": [
+              -0.03412321504705418,
+              -0.0017061170059403418,
+              0.09999071632902293,
+              1.0870428373790189,
+              0.005084745762712157,
+              2.3978952727983724,
+              0.024517334862249777
+            ],
+            "scales": [
+              0.4350690314966773,
+              0.021751598854990405,
+              1.1827716072216339e-05,
+              6.227727930127588,
+              0.33187894914555177,
+              1.0,
+              0.28789043424174254
+            ]
+          },
+          "imbalance": {
+            "coefficients": [
+              0.016236156915667536
+            ],
+            "features": [
+              "imbalance"
+            ],
+            "intercept": 0.025771177387329165,
+            "means": [
+              -0.03412321504705418
+            ],
+            "scales": [
+              0.4350690314966773
+            ]
+          },
+          "trade": {
+            "coefficients": [
+              0.025754037197933462,
+              -4.2193082992343154e-32
+            ],
+            "features": [
+              "trade_flow_imbalance",
+              "log_trade_count"
+            ],
+            "intercept": 0.025771177387329165,
+            "means": [
+              0.005084745762712157,
+              2.3978952727983724
+            ],
+            "scales": [
+              0.33187894914555177,
+              1.0
+            ]
+          }
+        },
+        "n_train": 118,
+        "train_mean_bps": 0.025771177387329165
+      },
+      "5": {
+        "max_training_target_ns": 1767225719000000000,
+        "models": {
+          "book": {
+            "coefficients": [
+              -0.0004129720612976303,
+              -0.00048642426934837894,
+              0.13602672922869044,
+              0.0051483587258725
+            ],
+            "features": [
+              "imbalance",
+              "microprice_edge_bps",
+              "spread_bps",
+              "ofi_depth"
+            ],
+            "intercept": 0.12601487740000433,
+            "means": [
+              -0.030372240917752764,
+              -0.0015186432706984644,
+              0.09999133348942409,
+              1.0706634274006734
+            ],
+            "scales": [
+              0.43280597844608376,
+              0.021638640746527528,
+              1.1551942356266667e-05,
+              6.310421902966013
+            ]
+          },
+          "combined": {
+            "coefficients": [
+              -0.0009390126373639692,
+              -0.0009992753044374696,
+              0.13792674303897462,
+              -0.03201099667084747,
+              -0.029606339243133283,
+              1.1028254001847485e-27,
+              0.07891429266424035
+            ],
+            "features": [
+              "imbalance",
+              "microprice_edge_bps",
+              "spread_bps",
+              "ofi_depth",
+              "trade_flow_imbalance",
+              "log_trade_count",
+              "lag_return_bps"
+            ],
+            "intercept": 0.12601487740000433,
+            "means": [
+              -0.030372240917752764,
+              -0.0015186432706984644,
+              0.09999133348942409,
+              1.0706634274006734,
+              0.007017543859649463,
+              2.397895272798372,
+              0.02037888916258882
+            ],
+            "scales": [
+              0.43280597844608376,
+              0.021638640746527528,
+              1.1551942356266667e-05,
+              6.310421902966013,
+              0.3329083162984029,
+              1.0,
+              0.29132792918587186
+            ]
+          },
+          "imbalance": {
+            "coefficients": [
+              -0.009285783646595915
+            ],
+            "features": [
+              "imbalance"
+            ],
+            "intercept": 0.12601487740000433,
+            "means": [
+              -0.030372240917752764
+            ],
+            "scales": [
+              0.43280597844608376
+            ]
+          },
+          "trade": {
+            "coefficients": [
+              -0.035832573614065666,
+              -8.437527761990553e-31
+            ],
+            "features": [
+              "trade_flow_imbalance",
+              "log_trade_count"
+            ],
+            "intercept": 0.12601487740000433,
+            "means": [
+              0.007017543859649463,
+              2.397895272798372
+            ],
+            "scales": [
+              0.3329083162984029,
+              1.0
+            ]
+          }
+        },
+        "n_train": 114,
+        "train_mean_bps": 0.12601487740000433
+      }
+    },
+    "parameters": {
+      "interval_s": 1,
+      "lookback_s": 1,
+      "stale_s": 1,
+      "tolerance_s": 0.5
+    },
+    "schema_version": 1,
+    "software_version": "0.3.0",
+    "source": "synthetic",
+    "symbol": "BTCUSDT",
+    "training_first_recv_ns": 1767225600000000000,
+    "training_input_sha256": "9427fa285b477eddca230abcebcb178c1f39b12aec66e68b118bb8328a45da48",
+    "training_last_recv_ns": 1767225719920000000,
+    "training_quality": {
+      "raw_records": 2400,
+      "rejected": {},
+      "valid_fraction": 1.0,
+      "valid_records": 2400
+    },
+    "training_transport": {
+      "gap_median_ms": 0.0,
+      "gap_p99_ms": 0.0,
+      "scope": "observable trailing features only; no quote exchange timestamps exist",
+      "snapshot_quality_fraction": 1.0,
+      "thresholds": {
+        "max_p99_ms": 1000,
+        "max_trade_gap_ms": 1000,
+        "min_snapshot_fraction": 0.8,
+        "min_trade_gap_ms": -100
+      },
+      "timing_gate_passed": true,
+      "trade_count": 1200,
+      "trades_above_1s": 0,
+      "trades_below_minus_100ms": 0
+    }
+  }
+}
